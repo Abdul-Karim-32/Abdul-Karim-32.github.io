@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying HTML</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+    </style>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>  
+
+    <div id="loader">
+        <div class="terminal">
+            <div class="line" style="animation-delay:0s">
+                > Initializing Portfolio...
+            </div>
+
+            <div class="line" style="animation-delay:1s">
+                > Loading Skills...
+            </div>
+
+            <div class="line" style="animation-delay:2s">
+                > Loading Projects...
+            </div>
+
+            <div class="line" style="animation-delay:3s">
+                > Connecting Database...
+            </div>
+            <div class="line" style="animation-delay:4s">
+                > Access Granted ✓
+            </div>
+        </div>
+    </div>
+
+    <marquee><h1 style="color:white">Welcome</h1></marquee>
+    <div>
+       <img src="./Photo/Karim.jpg" alt="My pic" width="600" height="450" > 
+       <p></p>
+     <span><b>Hello,</b> this is <em><big>Abdul Karim .</big></em>
+       Undergraduate <i>B.S.C</i> student at<b><a href="https://www.ru.ac.bd/"> University Of Rajshahi,</a></b>
+       Department of Computer science & Engineering (<a href="https://www.ru.ac.bd/cse/" >CSE </a>).
+       My favorite hobby is <b>watching natural senario.<br><br></b>
+     </span>
+    </div>
+    <p></p>
+    <div>
+        <img src="./Photo/RU-pic.jpg" alt="Rajshahi University" width="800" height="400">
+        <p><br></p>
+    </div>
+    <div id="content">
+        <br>
+        <h3 >My Educational Equalification </h3>
+        <br><br><br>
+        <p>:</p>
+        <table border="1">
+           <tr>
+              <th>Institution Name </th> <th> GPA</th>  <th>Passing Year</th>
+           </tr>
+           <tr>
+              <td>xyz school, Godagari</td>  <td>***</td>  <td>####</td>
+           </tr>
+           <tr>
+              <td>Godagari govt. College, Godagari</td>  <td>***</td>  <td>####</td>
+           </tr>
+           <tr>
+             <td>University Of Rajshahi</td>  <td>X</td>  <td>Ongoing</td>
+           </tr>
+        </table>
+    </div> <br><br>
+
+    <hr padding:2px; >
+    <span style="color:GRAY"><b>
+     Always Remember That
+     <q>Knowledge is power</q></b> </span>
+    <hr><br><br>
+
+    <div  >
+        <h2>Skill </h2>
+        <ul type="circle" > 
+            <li>C</li>
+            <li>JAVA</li>
+            <li>HTML</li>
+        </ul> <p><br><br></p>
+    <div>
+    <h2 style="color: #ff00ea;">You Can Track Me >></h2>
+    My Github Profile <a href="https://github.com/Abdul-Karim-32" target="blank">Click Here</a><br>
+    My facebook Profile <a href="https://www.facebook.com/Abdul.Karim32" target="blank">Follow Me</a><br>
+    
+    <p><br><br></p>
+    <h3>Information</h3>
+     <pre>
+        <big>Name       : MD Abdul Karim</big>
+        <big>Stuent ID  : 2410576143</big>
+        <big>Department : CSE </big>
+        <big>Number     : 0187010****</big>
+        <big>Email      : s2410576143@ru.ac.bd</big>
+        
+     </pre>
+     <p>Spacimen of form</p>
+     <div><pre>
+        <form>
+            Full Name :: <input type="text" placeholder="Enter Your Name " ><br>
+            Email     :: <input type="email" placeholder="Enter a valid Mail"><br>
+            Gender    :: <input type="text" placeholder="Your Gender"><br>
+                        <input type="submit">
+        </form></pre>
+     </div>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById("loader").style.display= "none";
+            const content= document.getElementById("content");
+            content.style.display= "flex";
+            document.body.style.overflow ="auto";
+        }, 5500);
+    </script>
+    
+</body>
+</html>
